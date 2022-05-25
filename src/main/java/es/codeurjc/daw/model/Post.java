@@ -20,6 +20,8 @@ public class Post {
 
 	private String content;
 
+	private String author;
+
 	@OneToMany
 	private List<Comment> comments = new ArrayList<>();
 
@@ -29,6 +31,14 @@ public class Post {
 	public Post(String title, String content) {
 		this.title = title;
 		this.content = content;
+	}
+
+	public String getAuthor() {
+		return author;
+	}
+
+	public void setAuthor(String author) {
+		this.author = author;
 	}
 
 	public long getId() {
