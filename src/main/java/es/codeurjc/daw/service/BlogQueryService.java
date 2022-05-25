@@ -5,6 +5,8 @@ import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import es.codeurjc.daw.controller.BasicPostDto;
@@ -21,8 +23,8 @@ public class BlogQueryService {
 	@Autowired
 	private ModelMapper modelMapper;
 	
-	public List<BasicPostDto> getPostsList() {
-		return postRepository.findAll()
+	public List<BasicPostDto> getPostsList(Page page) {
+		return postRepository.findAll(page.getPageable())
 				.stream()
 				.map((post) -> convertPostEntityToDto(post))
 				.collect(Collectors.toList());

@@ -3,6 +3,7 @@ package es.codeurjc.daw.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,8 +21,8 @@ public class BlogQueryController {
 	private BlogQueryService blogService;
 	
 	@GetMapping("/")
-	public List<BasicPostDto> listPosts() {
-		return blogService.getPostsList();
+	public List<BasicPostDto> listPosts(Page page) {
+		return blogService.getPostsList(page);
 	}
 	
 	@GetMapping("/{id}")
