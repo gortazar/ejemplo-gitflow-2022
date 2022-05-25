@@ -4,10 +4,19 @@ public class BasicPostDto {
 
 	public long id;
 	public String title;
+	public int numComments;
 	
 	public BasicPostDto() {
 	}
 
+	public int getNumComments() {
+		return numComments;
+	}
+
+	public void setNumComments(int numComments) {
+		this.numComments = numComments;
+	}
+	
 	public long getId() {
 		return id;
 	}

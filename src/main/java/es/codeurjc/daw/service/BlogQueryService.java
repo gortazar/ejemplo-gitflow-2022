@@ -41,7 +41,9 @@ public class BlogQueryService {
 	}
 
 	private BasicPostDto convertPostEntityToDto(Post post) {
-		return modelMapper.map(post, BasicPostDto.class);
+		BasicPostDto dto = modelMapper.map(post, BasicPostDto.class);
+		dto.setNumComments(post.getComments().size());
+		return dto;
 	}
 
 
