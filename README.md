@@ -15,3 +15,6 @@ PLantUML diagram super fancy!!
 # Developer documentation
 
 ASLKHDLASJK
+
+# License
+asldkalsd
