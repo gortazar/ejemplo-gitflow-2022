@@ -11,3 +11,6 @@ Balblabla
 # Developer documentation
 
 ASLKHDLASJK
+
+# License
+asldkalsd
