@@ -4,6 +4,10 @@ Author: blablabla
 
 Posts now support authorship.
 
+# Introduction
+
+Balblabla
+
 # Developer documentation
 
 ASLKHDLASJK
