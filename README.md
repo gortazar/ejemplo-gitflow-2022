@@ -8,6 +8,10 @@ Posts now support authorship.
 
 Balblabla
 
+# API
+
+API description
+
 # Developer documentation
 
 ASLKHDLASJK
