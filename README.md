@@ -8,12 +8,13 @@ Posts now support authorship.
 
 Balblabla
 
-# API
-
-API description
 # Architecture 
 
 PLantUML diagram super fancy!!
+
+# API
+
+API description
 
 # Developer documentation
 
