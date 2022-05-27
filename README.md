@@ -8,6 +8,10 @@ Posts now support authorship.
 
 Balblabla
 
+# Architecture 
+
+PLantUML diagram super fancy!!
+
 # Developer documentation
 
 ASLKHDLASJK
