@@ -11,6 +11,9 @@ Balblabla
 # API
 
 API description
+# Architecture 
+
+PLantUML diagram super fancy!!
 
 # Developer documentation
 
