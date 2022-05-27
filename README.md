@@ -15,6 +15,10 @@ PLantUML diagram super fancy!!
 
 API description
 
+# API
+
+API description
+
 # Developer documentation
 
 ASLKHDLASJK
